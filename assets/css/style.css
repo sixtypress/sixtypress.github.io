@@ -1,0 +1,36 @@
+body {
+  background-color: #e9f1e4;
+}
+
+.header-navbar {
+  border-bottom: 4px solid #c7e44e;
+}
+
+.header-navbar .navbar .navbar-brand {
+  color: #ff5559;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  .header-navbar .navbar .navbar-brand {
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .h1,
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  .h2,
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.navbar-nav .nav-item .nav-link,
+.navbar-nav .nav-item .nav-link:hover {
+  color: #04656e;
+  font-weight: bold;
+}
